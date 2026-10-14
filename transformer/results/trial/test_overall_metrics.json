@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.9607843137254902,
+  "balanced_accuracy": 0.9722222222222222,
+  "top3_accuracy": 1.0,
+  "macro_precision": 0.9753086419753088,
+  "macro_sensitivity": 0.9722222222222222,
+  "macro_specificity": 0.994949494949495,
+  "macro_f1": 0.9702380952380953,
+  "weighted_f1": 0.9604341736694677,
+  "macro_auc": 1.0,
+  "weighted_auc": 1.0,
+  "cohen_kappa": 0.9556907037358818,
+  "mcc": 0.9573545836409625,
+  "n_samples": 51
+}

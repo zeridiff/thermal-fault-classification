@@ -1,0 +1,9 @@
+fold,condition,noise,strength,repeat,max_probability_difference,predictions_match
+1,baseline,clean,0.0,0,2.9053497274666995e-08,True
+1,baseline,gaussian,0.02,0,2.558288569876055e-08,True
+1,baseline,salt_pepper,0.01,0,2.8466796919701665e-08,True
+1,baseline,speckle,0.02,0,1.6510009803738512e-08,True
+1,noise_augmented,clean,0.0,0,2.7570343008598286e-08,True
+1,noise_augmented,gaussian,0.02,0,2.6777648876041837e-08,True
+1,noise_augmented,salt_pepper,0.01,0,2.7463531449001266e-08,True
+1,noise_augmented,speckle,0.02,0,2.857666014932647e-08,True

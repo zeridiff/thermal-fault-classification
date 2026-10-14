@@ -1,0 +1,77 @@
+{
+  "training_config": {
+    "DATA_DIR": "C:\\Users\\dukeb\\Downloads\\Motor motor rrrrrrrr",
+    "OUTPUT_DIR": "outputs",
+    "MODEL_NAME": "mobilenet_v3_small",
+    "PRETRAINED": true,
+    "IMG_SIZE": 224,
+    "N_FOLDS": 5,
+    "BATCH_SIZE": 16,
+    "EPOCHS": 40,
+    "FINAL_EPOCHS": 40,
+    "LEARNING_RATE": 0.0001,
+    "WEIGHT_DECAY": 0.0001,
+    "EARLY_STOP_PATIENCE": 10,
+    "ENABLE_CLAHE": false,
+    "SEED": 42,
+    "NUM_WORKERS": 0
+  },
+  "data_dir": "C:\\Users\\dukeb\\Downloads\\Motor motor rrrrrrrr",
+  "seed": 42,
+  "classes": [
+    "A&B50",
+    "A&C&B10",
+    "A&C&B30",
+    "A&C10",
+    "A&C30",
+    "A10",
+    "A30",
+    "A50",
+    "Fan",
+    "Noload",
+    "Rotor-0"
+  ],
+  "smoke_test": false,
+  "noise_probability": 0.5,
+  "train_ranges": {
+    "gaussian": [
+      0.01,
+      0.08
+    ],
+    "salt_pepper": [
+      0.005,
+      0.05
+    ],
+    "speckle": [
+      0.01,
+      0.08
+    ]
+  },
+  "test_levels": {
+    "gaussian": [
+      0.02,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "salt_pepper": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.15
+    ],
+    "speckle": [
+      0.02,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ]
+  },
+  "test_repeats": 3,
+  "inner_validation_fraction": 0.15,
+  "filtering": false,
+  "torch_version": "2.2.0+cpu"
+}

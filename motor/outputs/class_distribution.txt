@@ -1,0 +1,12 @@
+Found 369 images across 11 classes:
+  [ 0] A&B50           38 images
+  [ 1] A&C&B10         31 images
+  [ 2] A&C&B30         42 images
+  [ 3] A&C10           31 images
+  [ 4] A&C30           38 images
+  [ 5] A10             34 images
+  [ 6] A30             37 images
+  [ 7] A50             35 images
+  [ 8] Fan             28 images
+  [ 9] Noload          25 images
+  [10] Rotor-0         30 images

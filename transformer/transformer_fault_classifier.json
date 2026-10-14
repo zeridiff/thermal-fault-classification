@@ -1,0 +1,27 @@
+{
+  "class_names": [
+    "Healthy",
+    "80 SC",
+    "160 SC",
+    "240 SC",
+    "320 SC",
+    "400 SC",
+    "480 SC",
+    "560 SC",
+    "600 SC"
+  ],
+  "img_size": 224,
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "backbone": "resnet18",
+  "input_name": "input",
+  "output_name": "logits"
+}

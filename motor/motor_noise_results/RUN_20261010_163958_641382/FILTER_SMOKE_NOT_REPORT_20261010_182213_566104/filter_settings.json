@@ -1,0 +1,14 @@
+{
+  "source_run": "C:\\Users\\dukeb\\Downloads\\Motor motor rrrrrrrr\\motor_noise_results\\RUN_20261010_163958_641382",
+  "filters": {
+    "none": "Unfiltered float32 RGB image",
+    "median_3": "3 x 3 median, each channel separately, replicated border",
+    "gaussian_5": "5 x 5 Gaussian, sigmaX=sigmaY=1.0, reflect101 border",
+    "bilateral_5": "diameter=5, sigmaColor=0.10 on [0,1] RGB, sigmaSpace=2.0, reflect101 border"
+  },
+  "smoke_test": true,
+  "cv2_version": "4.10.0",
+  "torch_version": "2.2.0+cpu",
+  "noise_seed": 42,
+  "parameters_selected_using_test_scores": false
+}
